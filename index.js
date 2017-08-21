@@ -8,7 +8,7 @@ class RandomTest extends Component {
   render(){
     let {
       //h1 = dep(),
-      h2 = 'this is component text',
+      h2 = 'this is some other special text',
     } = this.props;
 
     let {
