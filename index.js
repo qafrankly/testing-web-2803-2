@@ -18,6 +18,7 @@ class RandomTest extends Component {
     return (
       <div>
         <h2>{h2}</h2>
+	<img src='http://www.kinocast.net/wp-content/uploads/2017/06/98bwhd1.jpg'/>
       </div>
     );
   }
