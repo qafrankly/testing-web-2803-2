@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 
+import dep from './dep';
+
 class RandomTest extends Component {
   static PropTypes = {
     h1: PropTypes.string,
@@ -7,7 +9,7 @@ class RandomTest extends Component {
   }
   render(){
     let {
-      //h1 = dep(),
+      //h1 = dep,
       h2 = 'Hi TL welcome to Custom Modules!'
     } = this.props;
 
@@ -17,7 +19,7 @@ class RandomTest extends Component {
 
     return (
       <div>
-        <h2>{h2}</h2>
+        <h2>{dep}</h2>
 	<h1>this is the demo and training session.</h1>
       </div>
     );
