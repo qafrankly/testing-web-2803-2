@@ -1,7 +1,7 @@
 
 
 function hello(){
-  return 'something.'
+  return 'something'
 }
 
 export default hello;
