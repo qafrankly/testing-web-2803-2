@@ -1,3 +1,3 @@
 
 
-export default const dep = 'something.';
+export default const dep = 'something';
