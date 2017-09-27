@@ -1,3 +1,6 @@
 
+function hello(){
+  return 'something.'
+}
 
-export default const dep = 'something';
+export default hello;
