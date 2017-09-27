@@ -19,7 +19,7 @@ class RandomTest extends Component {
 
     return (
       <div>
-        <h2>big change..</h2>
+        <h2>big change.. ok</h2>
 	<h2>{h1}</h2>
       </div>
     );
