@@ -1,6 +1,12 @@
 import React, { Component, PropTypes } from 'react';
 
+import _ from 'lodash';
 //import dep from './dep';
+
+const a = [1];
+const b = [2,3]
+
+const otherarray = _.concat(a, b)
 
 class RandomTest extends Component {
   static PropTypes = {
@@ -20,7 +26,7 @@ class RandomTest extends Component {
     return (
       <div>
         <h2>big change.. ok</h2>
-	<h2>asdfasdf</h2>
+	<h2>{otherarray[2]}</h2>
       </div>
     );
   }
