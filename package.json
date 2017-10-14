@@ -7,7 +7,7 @@
     "layout": "PropTypes.string"
   },
   "defaultProps": {
-    "title": "Test uniqueness",
+    "title": "foobar",
     "titleColor": "#000",
     "backgroundColor": "white",
     "layout": "hero",
