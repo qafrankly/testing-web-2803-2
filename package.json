@@ -1,7 +1,7 @@
 {
   "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_news_articlelist.svg",
   "tag": "barnacle",
-  "affiliates":["asdf"],
+  "affiliates":["asdf", "qwert"],
   "propTypes": {
     "title": "PropTypes.string",
     "layout": "PropTypes.string"
