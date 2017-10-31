@@ -4,7 +4,8 @@ import _ from 'lodash';
 //import dep from './dep';
 
 const a = [1];
-const b = [2,3]
+const b = [2,3];
+const c = 'test';
 
 const otherarray = _.concat(a, b)
 
