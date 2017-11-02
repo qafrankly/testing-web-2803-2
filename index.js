@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-//import Qwerty from 'axelbrock/qwerty';
+import RandomQwerty from 'axelbrock/qwerty';
 
 import _ from 'lodash';
 //import dep from './dep';
@@ -30,7 +30,7 @@ class RandomTest extends Component {
       <div>
         <h2>big change.. ok</h2>
 	<h2>{otherarray[2]}</h2>
-	<Qwerty />
+	<RandomQwerty />
       </div>
     );
   }
