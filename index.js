@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-import Qwerty from 'axelbrock/qwerty';
+//import Qwerty from 'axelbrock/qwerty';
 
 import _ from 'lodash';
 //import dep from './dep';
