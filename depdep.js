@@ -7,7 +7,7 @@ class Depdep extends Component {
   }
   render(){
     let {
-      h2 = 'demonstrating recursive dependency includes using this Depdep component'
+      h2 = 'nested dep test'
     } = this.props;
 
     let {
