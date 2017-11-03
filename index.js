@@ -31,7 +31,7 @@ class Asdf extends Component {
 
     return (
       <div>
-        <h2>big change.. ok</h2>
+        <h2>the ASDF component</h2>
 	<h2>{otherarray[2]}</h2>
       </div>
     );
