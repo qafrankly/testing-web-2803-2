@@ -9,7 +9,7 @@
   "defaultProps": {
     "title": "foobar",
     "titleColor": "#000",
-    "backgroundColor": "grey",
+    "backgroundColor": "blue",
     "layout": "hero",
     "numberOfItems": 6,
     "textColor": "black",
