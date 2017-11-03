@@ -3,7 +3,7 @@ import React, { Component, PropTypes } from 'react';
 //import RandomQwerty from 'axelbrock/qwerty';
 //<RandomQwerty />
 
-barnacle()
+import ttt from 'react';
 
 import _ from 'lodash';
 
