@@ -4,7 +4,7 @@ import React, { Component, PropTypes } from 'react';
 
 import _ from 'lodash';
 
-//import dep from './dep';
+import dep from './dep';
 
 const a = [1];
 const b = [2,3];
