@@ -14,7 +14,7 @@ const c = 'test';
 
 const otherarray = _.concat(a, b)
 
-class RandomTest extends Component {
+class Asdf extends Component {
   static PropTypes = {
     h1: PropTypes.string,
     h2: PropTypes.string,
@@ -38,5 +38,5 @@ class RandomTest extends Component {
   }
 }
 
-export default RandomTest;
+export default Asdf;
 
