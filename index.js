@@ -5,7 +5,7 @@ import React, { Component, PropTypes } from 'react';
 
 import _ from 'lodash';
 
-import Dep from './dep';
+//import Dep from './dep';
 //<Dep />
 
 const a = [1];
@@ -33,7 +33,7 @@ class Asdf extends Component {
       <div>
         <h2>the ASDF component</h2>
 	<h2>{otherarray[2]}</h2>
-	<Dep />
+	//<Dep />
       </div>
     );
   }
