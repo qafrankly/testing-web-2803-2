@@ -4,7 +4,6 @@ import RandomQwerty from 'axelbrock/qwerty';
 
 import _ from 'lodash';
 
-
 //import dep from './dep';
 
 const a = [1];
