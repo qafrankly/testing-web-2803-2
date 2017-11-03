@@ -21,7 +21,7 @@ class RandomTest extends Component {
   }
   render(){
     let {
-      h1 = dep(),
+      //h1 = dep(),
       h2 = 'Hi TL welcome to Custom Modules! :)'
     } = this.props;
 
