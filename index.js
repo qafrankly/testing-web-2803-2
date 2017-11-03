@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 
 //import RandomQwerty from 'axelbrock/qwerty';
+//<RandomQwerty />
 
 import _ from 'lodash';
 
@@ -19,7 +20,7 @@ class RandomTest extends Component {
   }
   render(){
     let {
-      //h1 = dep(),
+      h1 = dep(),
       h2 = 'Hi TL welcome to Custom Modules! :)'
     } = this.props;
 
@@ -31,7 +32,7 @@ class RandomTest extends Component {
       <div>
         <h2>big change.. ok</h2>
 	<h2>{otherarray[2]}</h2>
-	<RandomQwerty />
+	<h1>{h1}</h1>
       </div>
     );
   }
