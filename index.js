@@ -3,6 +3,8 @@ import React, { Component, PropTypes } from 'react';
 //import RandomQwerty from 'axelbrock/qwerty';
 //<RandomQwerty />
 
+barnacle()
+
 import _ from 'lodash';
 
 //import Dep from './dep';
