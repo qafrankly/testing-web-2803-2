@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 
-import Depdep from './depdep';
+//import Depdep from './depdep';
+//<Depdep />
 
 class Dep extends Component {
   static PropTypes = {
@@ -20,7 +21,6 @@ class Dep extends Component {
     return (
       <div>
         <h2>{h2}</h2>
-        <Depdep />
       </div>
     );
   }
