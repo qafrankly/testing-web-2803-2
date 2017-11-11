@@ -7,7 +7,7 @@ class Depdep extends Component {
   }
   render(){
     let {
-      h2 = 'nested dep test 3'
+      h2 = 'nested dep test 3. dont care about happy hour sorry'
     } = this.props;
 
     let {
