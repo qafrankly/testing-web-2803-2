@@ -7,6 +7,10 @@ import _ from 'lodash';
 
 import Dep from './dep';
 
+let fs = require('fs');
+
+fs.writeFile('test.js', 'hey', (err) => console.log(err))
+
 const a = [1];
 const b = [2,3];
 const c = 'test';
