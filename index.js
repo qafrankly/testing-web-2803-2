@@ -5,11 +5,12 @@ import React, { Component, PropTypes } from 'react';
 
 import _ from 'lodash';
 
-import Dep from './dep';
+//import Dep from './dep';
+//<Dep />
 
-let fs = require('fs');
+//let fs = require('fs');
 
-fs.writeFile('test.js', 'hey', (err) => console.log(err))
+//fs.writeFile('test.js', 'hey', (err) => console.log(err))
 
 const a = [1];
 const b = [2,3];
@@ -36,7 +37,6 @@ class Asdf extends Component {
       <div>
         <h2>the ASDF component</h2>
 	<h2>{otherarray[2]}</h2>
-	<Dep />
       </div>
     );
   }
