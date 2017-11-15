@@ -9,7 +9,6 @@ import _ from 'lodash';
 //<Dep />
 
 //let fs = require('fs');
-
 //fs.writeFile('test.js', 'hey', (err) => console.log(err))
 
 const a = [1];
@@ -35,7 +34,7 @@ class Asdf extends Component {
 
     return (
       <div>
-        <h2>the ASDF component</h2>
+        <h2>hi Dad, dont worry about the 3 below:</h2>
 	<h2>{otherarray[2]}</h2>
       </div>
     );
