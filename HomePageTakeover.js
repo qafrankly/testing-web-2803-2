@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 
+var a = {}
+
+a.poo()
+
+asdf()
+
 class HomePageTakeover extends Component {
 
   constructor(props){ //gives us acces to props, fires long before page load
