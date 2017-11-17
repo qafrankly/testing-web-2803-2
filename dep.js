@@ -5,7 +5,7 @@ import React, { Component, PropTypes } from 'react';
 
 
 class Dep extends Component {
-  static propTypes = {
+  static PropTypes = {
     h1: PropTypes.string,
     h2: PropTypes.string,
   }
