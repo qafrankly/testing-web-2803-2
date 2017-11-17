@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-poo()
+//poo()
 
-asdf()
+//asdf()
 
 class HomePageTakeover extends Component {
 
