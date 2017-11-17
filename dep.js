@@ -18,6 +18,13 @@ class Dep extends Component {
     let {
       flux, config
     } = this.context;
+    
+    return (
+      <div>
+        <h2>{h2}</h2>
+
+      </div>
+    );
   }
 }
 
