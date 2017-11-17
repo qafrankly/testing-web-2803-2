@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-hptakover2()
+//hptakover2()
 
 class HomePageTakeover extends Component {
 
