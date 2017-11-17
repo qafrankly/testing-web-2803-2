@@ -9,7 +9,7 @@ class Dep extends Component {
     h1: PropTypes.string,
     h2: PropTypes.string,
   }
-  render(){
+  renderasdf(){
     let {
       //h1 = dep(),
       h2 = 'the dep component'
