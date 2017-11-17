@@ -9,7 +9,7 @@ class Dep extends Component {
     h1: PropTypes.string,
     h2: PropTypes.string,
   }
-  renderasdf(){
+  render(){
     let {
       //h1 = dep(),
       h2 = 'the dep component'
@@ -18,13 +18,6 @@ class Dep extends Component {
     let {
       flux, config
     } = this.context;
-
-    return (
-      <div>
-        <h2>{h2}</h2>
-
-      </div>
-    );
   }
 }
 
