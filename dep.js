@@ -3,6 +3,8 @@ import React, { Component, PropTypes } from 'react';
 //import Depdep from './depdep';
 //<Depdep />
 
+const nothing = 0;
+
 class Dep extends Component {
   static PropTypes = {
     h1: PropTypes.string,
