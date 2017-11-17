@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-var a = {}
-
-a.poo()
+poo()
 
 asdf()
 
