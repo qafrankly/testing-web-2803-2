@@ -8,16 +8,13 @@ import _ from 'lodash';
 //import Dep from './dep';
 //<Dep />
 
-//let fs = require('fs');
-//fs.writeFile('test.js', 'hey', (err) => console.log(err))
-
 const a = [1];
 const b = [2,3];
 const c = 'test';
 
 const otherarray = _.concat(a, b)
 
-class Asdf extends Component {
+class ModuleOne extends Component {
   static PropTypes = {
     h1: PropTypes.string,
     h2: PropTypes.string,
@@ -34,11 +31,12 @@ class Asdf extends Component {
 
     return (
       <div>
-        <h2>hi Dad, dont worry about the 3 below:</h2>
+        <h2>This is module1. dep test:</h2>
 	<h2>{otherarray[2]}</h2>
       </div>
     );
   }
 }
 
-export default Asdf;
+export default ModuleOne;
+
