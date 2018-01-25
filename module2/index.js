@@ -17,7 +17,7 @@ class ModuleTwo extends Component {
     return (
       <div>
         <h2>This is module2</h2>
-	<h2>{otherarray[2]}</h2>
+	<h2>testing ModuleTwo</h2>
       </div>
     );
   }
