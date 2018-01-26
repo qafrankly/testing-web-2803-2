@@ -1,7 +1,6 @@
 {
   "lintfix": "if it ain't broke",
   "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_news_articlelist.svg",
-  "tag":"yo",
   "affiliates":["hey"],
   "propTypes": {
     "title": "PropTypes.string",
