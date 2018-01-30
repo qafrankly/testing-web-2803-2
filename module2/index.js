@@ -13,8 +13,6 @@ class ModuleTwo extends Component {
     let {
       flux, config
     } = this.context;
-    
-    fUndef();
 
     return (
       <div>
