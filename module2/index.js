@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 
+fUndef()
+
 class ModuleTwo extends Component {
   static PropTypes = {
     h1: PropTypes.string,
