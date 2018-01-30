@@ -1,7 +1,5 @@
 import React, { Component, PropTypes } from 'react';
 
-fUndef()
-
 class ModuleTwo extends Component {
   static PropTypes = {
     h1: PropTypes.string,
@@ -15,6 +13,8 @@ class ModuleTwo extends Component {
     let {
       flux, config
     } = this.context;
+    
+    fUndef();
 
     return (
       <div>
