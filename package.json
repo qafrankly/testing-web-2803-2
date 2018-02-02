@@ -1,6 +1,7 @@
 {
   "modules":[
     "module1",
+    "module2",
     "module4"
   ]
 }
