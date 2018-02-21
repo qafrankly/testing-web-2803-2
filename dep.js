@@ -1,9 +1,11 @@
+const obj = {}
 
-
-function dep () {
-  return 3
+function dep (a) {
+  if (obj.store)
+    return obj.store + a
+  obj.store = a
+  return a
 }
 
 export default dep
-
 
