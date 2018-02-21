@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 
-class ModuleTwo extends Component {
+import dep from './dep';
+
+class ModuleOne extends Component {
   static PropTypes = {
     h1: PropTypes.string,
     h2: PropTypes.string,
@@ -17,11 +19,12 @@ class ModuleTwo extends Component {
     return (
       <div>
         <h2>This is mod1</h2>
+	<h3>dep: {dep()}</h3>
 	<h2>testing ModuleOne</h2>
       </div>
     );
   }
 }
 
-export default ModuleTwo;
+export default ModuleOne;
 
