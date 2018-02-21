@@ -16,8 +16,8 @@ class ModuleTwo extends Component {
 
     return (
       <div>
-        <h2>This is module2</h2>
-	<h2>testing ModuleTwo</h2>
+        <h2>This is mod1</h2>
+	<h2>testing ModuleOne</h2>
       </div>
     );
   }
