@@ -1,6 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 
-import dep from '../dep';
+const path = '..'
+
+import dep from `${path}/dep`;
 
 class ModuleOne extends Component {
   static PropTypes = {
