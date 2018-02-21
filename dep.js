@@ -1,10 +1,8 @@
 const obj = {}
 
 function dep (a) {
-  if (obj.store)
-    return obj.store + a
-  obj.store = a
-  return a
+  obj.store += a
+  return obj.store
 }
 
 export default dep
