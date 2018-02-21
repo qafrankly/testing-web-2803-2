@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-import dep from './dep';
+import dep from '../dep';
 
 class ModuleOne extends Component {
   static PropTypes = {
